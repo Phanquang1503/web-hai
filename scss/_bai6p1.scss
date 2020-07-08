@@ -1,0 +1,244 @@
+body{
+   
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    .container-banner{
+        background-image: url(../img/banner.jpg);
+        width: 100vw;
+        // border: 1px solid black;
+        height: 50rem;
+      
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       .banner{
+           display: grid;
+           position: fixed;
+           width: 100vw;
+           grid-template-columns: auto auto auto;
+           background-color: rgb(145, 122, 168);
+           height: 2.5rem;
+   
+           div{
+               line-height: 2.5rem;
+           
+               position: relative;
+               a{
+                font-family: Arial, Helvetica, sans-serif;
+                   position: absolute;
+                   left: 40%;
+                   text-decoration: none;
+                   color: rgb(202, 170, 170);
+                   span{
+                      margin-left: 2rem;
+                   }
+                   
+               }
+               a:hover{
+                   color: white;
+                   font-family: Arial, Helvetica, sans-serif;
+               }
+           }
+           
+        
+       }
+       .menu{
+           padding-top: 5rem;
+           display: flex;
+           justify-content: center;
+           height: 3rem;
+           .container-menu{
+               width: 73.125rem;
+            //    border: 1px solid black;
+               display: flex;
+               .left{
+                   width: 20rem;
+                //    background-color: yellow;
+                   line-height: 3rem;
+                   a{
+                       text-decoration: none;
+                    h2{
+                        margin: 0;
+                        padding: 0;
+                        font-size: 1.7rem;
+                        color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                   }
+
+               }
+               .right{
+                   line-height: 3rem;
+                   display: flex;
+                   justify-content: flex-end;
+                   width: 53.125rem;
+                //    background-color: yellowgreen;
+                   >ul{
+                       margin: 0;
+                       padding: 0;
+                    
+                       >li{
+                           list-style: none;
+                           float: left;
+                           margin-right: 2rem;
+                           position: relative;
+                           >a{
+                               display: inline-flex;
+                               text-decoration: none;
+                               color: white;
+                               font-size: 1rem;
+                               font-family: Arial, Helvetica, sans-serif;
+                           }
+                       }
+                       >li:hover{
+                        >a{
+                            text-decoration: none;
+                            color: red;
+                            font-size: 1rem;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                        
+                       }
+                      >.menu1{
+                        span{
+                            i{
+                                font-size: 0.6rem;
+                            }
+                        }
+                          >ul{
+                             display: none;
+                            
+                            background-color: rgb(138, 112, 112);
+                              position: absolute;
+                              padding: 0;
+                              margin: 0;
+                              >li{
+                                  list-style: none;
+                                  height: 2rem;
+                                  width: 7rem;
+                                //   border-bottom:1px solid black ;
+                                  line-height: 2rem;
+                                  margin-left: 0.5rem;
+                                  margin-right: 0.5rem;
+                                  >a{
+                                    display: inline-flex;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-size: 1rem;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                  
+                                  }
+                              }
+
+                          }
+                      }
+                      >.menu1:hover{
+                          >ul{
+                            display: block;
+                           >li:hover{
+                                >a{
+                                    
+                                    color: red;
+                                    font-size: 1rem;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+                           }
+
+                          }
+                         
+
+                      }
+                    //    menu đa cấp
+                       
+                   }
+               }
+           }
+       }
+    .header{
+        display: flex;
+        justify-content: center;
+        
+        .header-p1{
+            // background-color: brown;
+            width: 73.125rem;
+            height: 42rem;
+            .left{
+                width: 60%;
+                margin-top: 7rem;
+                // border: 1px solid black;
+                height: 30rem;
+                h3{
+                    margin-left: 0.5rem;
+                    color: white;
+                    font-size: 0.8rem;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                }
+                h1{
+                    margin-left: 0.5rem;
+                    color: white;
+                    font-size: 3.5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                }
+                >div{
+                    margin-top: 5rem;
+                    display: grid;
+                    grid-template-columns: auto auto  auto;
+                    .iteam1{
+                        width: 100%;
+                        // border: 1px solid black;
+                        height: 5rem;
+                        display: flex;
+                        .iteam1-left{
+                            
+                            width: 27%;
+                            margin-top: 0.4rem;
+                           
+                            background-color: white;
+                            border-radius: 4rem;
+                            height: 4rem;position: relative;
+                            >i{
+                                position: absolute;
+                                font-size: 2.5rem;line-height: 4rem;
+                                left: 0.9rem;
+                                color: rgb(117, 89, 219);
+                                
+                            }
+                            #ab{
+                                position: absolute;
+                                font-size: 2.5rem;line-height: 4rem;
+                                left: 1.2rem;
+                            }
+                        }
+                        .iteam1-right{
+                           width: 70%;
+                            height: 5rem;
+                            // border: 1px solid black;
+                            h4{
+                                padding: 0;
+                                margin: 1rem 0 0 0.5rem;
+                                color: white;
+                                font-size:0.9rem;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                            h2{
+                                padding: 0;
+                                margin: 0;
+                                margin-left: 0.5rem;
+                                color: white;
+                                font-size: 1.8rem;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+       
+    }
+}

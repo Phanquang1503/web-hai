@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    .container{
+        width: 100vw;
+        min-height: 35rem;
+        border: 1px solid black;
+        display: grid;
+        background-color: cadetblue;
+        z-index: 0;
+        grid-template-columns: auto auto auto;
+       
+        div{
+            width: 28rem;
+            margin: 1.4rem;
+            border: 1px solid black;
+            grid-template-columns: auto auto auto;
+            background-color: white;
+            min-height: 30rem;
+            .p11{
+                width: 2rem;
+                background-color: yellowgreen;
+                border-radius: 1.5rem;
+                padding-left: 0.5rem;
+                margin-left: 1.5rem;
+            }
+            .p12{
+                width: 3.2rem;
+                background-color: yellowgreen;
+                border-radius: 1.5rem;
+                padding-left: 0.5rem;
+                margin-left: 1.5rem;
+            }
+            .p13{
+                width: 3.5rem;
+                background-color: yellowgreen;
+                border-radius: 1.5rem;
+                padding-left: 0.5rem;
+                margin-left: 1.5rem;
+            }
+            img{
+                width: 100%;
+            }
+            h3{
+                margin: 0.5rem;
+                color: rgb(98, 109, 160);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .p2{
+                margin: 0.5rem;
+                font-style: italic;
+                color: rgb(106, 121, 150);
+
+            }
+            .p3{
+                margin: 0.5rem;
+            }
+        }
+        
+
+    }
+    
+}

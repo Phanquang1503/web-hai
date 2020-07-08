@@ -1,0 +1,109 @@
+.container{
+    /* border:0.1rem solid red; */
+    margin: 0 auto;
+    width: 30rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.tt1{
+    display: flex;
+    border:0.05rem solid black; 
+    width: 30rem;
+    height: 35rem;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.tt1>div>img{
+    width:30rem;
+    height: 25rem;
+    margin: 0;
+    padding: 0;
+}
+.tt1 h2{
+    width:28.5rem;
+    height: 4rem;
+  
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    margin: 0;
+}
+.tt1 p{
+    width:28.5rem;
+    height: 3rem;
+    margin: 0;
+    padding:0.5rem;
+   
+}
+
+
+
+
+
+/* phan2 */
+
+
+.tt2{
+    display: flex;
+    border:0.05rem solid black; 
+    width: 30rem;
+    height: 36.4rem;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.tt2>div>img{
+    width:30rem;
+    height: 25rem;
+    margin: 0;
+    padding: 0;
+}
+.tt2 h2{
+    width:28.5rem;
+    height: 6.5rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    margin: 0;
+}
+.tt2 p{
+    width:28.89rem;
+    height: 3.2rem;
+    margin: 0;
+    padding:0.5rem;
+    color: chocolate ;
+    background-color: burlywood;
+}
+
+/* phan2 */
+
+
+.tt3{
+    display: flex;
+    border:0.05rem solid black; 
+    width: 30rem;
+    height: 34rem;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.tt3>div>img{
+    width:30rem;
+    height: 20rem;
+    margin: 0;
+    padding: 0;
+}
+.tt3 h2{
+    width:28.89rem;
+    height: 7rem;
+   
+    background-color: coral;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    margin-top: 2rem;
+}
+.tt3 p{
+    width:28.8rem;
+    height: 3rem;
+    margin: 0;
+    padding:0.5rem;
+    
+   
+}

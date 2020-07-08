@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  width: 100vw;
+  min-height: 35rem;
+  border: 1px solid black;
+  display: -ms-grid;
+  display: grid;
+  background-color: cadetblue;
+  z-index: 0;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+body .container div {
+  width: 28rem;
+  margin: 1.4rem;
+  border: 1px solid black;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  background-color: white;
+  min-height: 30rem;
+}
+
+body .container div .p11 {
+  width: 2rem;
+  background-color: yellowgreen;
+  border-radius: 1.5rem;
+  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+body .container div .p12 {
+  width: 3.2rem;
+  background-color: yellowgreen;
+  border-radius: 1.5rem;
+  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+body .container div .p13 {
+  width: 3.5rem;
+  background-color: yellowgreen;
+  border-radius: 1.5rem;
+  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+body .container div img {
+  width: 100%;
+}
+
+body .container div h3 {
+  margin: 0.5rem;
+  color: #626da0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .container div .p2 {
+  margin: 0.5rem;
+  font-style: italic;
+  color: #6a7996;
+}
+
+body .container div .p3 {
+  margin: 0.5rem;
+}
+
+.container-li {
+  min-height: 50rem;
+  background-color: #8d94ce;
+  z-index: 0;
+}
+
+.container-li ul {
+  z-index: 1;
+  padding: 0;
+  margin-left: 2.7rem;
+}
+
+.container-li ul li {
+  float: left;
+  width: 18%;
+  margin: 0.5rem;
+  border: 1px solid black;
+  height: 23rem;
+  list-style: none;
+  background-color: #f7fbfd;
+}
+
+.container-li ul li img {
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 1.8rem;
+}
+
+.container-li ul li .p1 {
+  color: #2b2d36;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5rem;
+}
+
+.container-li ul li h3 {
+  margin: 0.5rem;
+  color: red;
+  padding: 0;
+}
+
+.container-li ul li .p3 {
+  margin: 0.5rem;
+  font-size: 0.92rem;
+}
+
+.container-li ul li div {
+  margin: 0.5rem;
+}
+
+.container-li ul li div i {
+  color: red;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=bai4.css.map */

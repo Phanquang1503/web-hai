@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,IADA,CACA,GAAG,CAAA;EACC,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "bai6p2.scss"
+    ],
+    "names": [],
+    "file": "bai6p2.css"
+}

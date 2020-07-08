@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height:7rem;
+   /* border: 0.01rem solid red; */
+   display: flex;
+}
+.container .iteam{
+    width: 25%;
+    height: 7rem;
+   position: relative;
+    /* border: 0.01rem solid red; */
+}
+.container .iteam >img{
+   width: 6rem;
+   position: absolute;
+   height: 6rem;
+    top:0.5rem
+  
+  
+}
+/* phần chữ */
+.container .iteam>h2{
+    font-weight: lighter;
+    line-height: 7rem;
+    padding: 0;
+    margin: 0;
+}
+/* phần menu */
+.container .iteam >ul{
+    padding: 0;
+    margin: 0;
+    line-height: 7rem;
+   
+}
+.container .iteam >ul >li{
+    list-style: none;
+    float: left;
+   height:4rem;
+    width: 4.8rem;
+    padding-left: 1rem;
+    line-height:4rem;
+    /* border: 0.01rem solid red; */
+    margin-left:1rem ;
+    position: relative;
+    top:2rem;
+    left:2.7rem;
+   
+}
+#menu{
+   
+    border-radius: 1rem;
+    background-color: #646464;
+}
+#menu >a{
+    color: white;
+    background-color: #646464;
+}
+.container .iteam >ul >li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.hr{
+    
+    height: 0.05rem;
+    width: 100vw;
+    background-color: black;
+}
+
+/* phần 2 */
+.container-two{
+    width: 100vw;
+    height: 17rem;
+    /* border: 0.01rem solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+.iteam-a{
+    width: 14rem;
+    height: 13rem;
+    background-color:rgb(3, 169, 244);
+}
+.iteam-b{
+    width: 14rem;
+    height: 17rem;
+    background-color: rgb(255, 0, 0);
+}
+.iteam-c{
+    width: 15rem;
+    height: 15rem;
+   background-color: rgb(76, 175, 80);
+}
+
+/* Phần 3 */
+.container-thr{
+    width: 100vw;
+    height: 17rem;
+   
+    display: flex;
+    justify-content: space-between;
+   
+}
+.iteam-thr-a{
+    width: 14rem;
+    height: 13rem;
+    background-color:rgb(3, 169, 244);
+}
+.iteam-thr-b{
+    width: 14rem;
+    height: 17rem;
+    background-color: rgb(255, 0, 0);
+}
+.iteam-thr-c{
+    width: 15rem;
+    height: 15rem;
+   background-color: rgb(76, 175, 80);
+}
+
+
+
+/* Phần 3 */
+.container-fo{
+    width: 100vw;
+    height: 17rem;
+    
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.iteam-fo-a{
+    width: 14rem;
+    height: 13rem;
+    background-color:rgb(3, 169, 244);
+}
+.iteam-fo-b{
+    width: 14rem;
+    height: 17rem;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left: 45rem ;
+}
+.iteam-fo-c{
+    width: 15rem;
+    height: 15rem;
+   background-color: rgb(76, 175, 80);
+}
